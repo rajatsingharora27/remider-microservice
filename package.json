@@ -4,6 +4,7 @@
     "dotenv": "^16.0.3",
     "expree": "^2.1.0",
     "mysql2": "^3.0.1",
+    "nodemailer": "^6.9.0",
     "nodemon": "^2.0.20",
     "sequelize": "^6.28.0",
     "sequelize-cli": "^6.5.2"
@@ -11,7 +12,6 @@
   "name": "reminder-microservice",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "start": "nodemon src/index.js"
   },
